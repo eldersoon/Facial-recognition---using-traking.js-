@@ -12,16 +12,57 @@ video, canvas {
     margin-top: auto;
     position: absolute;
   }
-
-#body {
-    /* The image used */
-    background-image: url("../img/bg.jpg");
-    max-width: none;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  .nav-link, a{
+    color: white;
+    font-size: 13pt;
 }
+
+.nav-link:hover, a:hover{
+    color: rgba(255, 255, 255, 0.808);
+}
+.navbar-nav{
+    margin-left: 45px;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.active{
+    font-weight: bold;
+}
+.btn{
+    margin: 4px;
+}
+.btn-outline-warning{
+    background-color:none;
+    border:1px solid;
+    color: white;
+    font-size: 12pt;
+}
+
+.btn-outline-warning:hover{
+    background-color:  rgb(155, 5, 201);
+    border-color:  rgb(165, 65, 196);
+    color: white;
+}
+
+.form{
+    position:relative;
+    top:20px;
+    padding: 20px;
+    width: 500px;
+    min-height: 500px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    height:60px;
+    color: white;
+    text-align: center;
+ }
