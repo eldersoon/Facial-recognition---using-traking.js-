@@ -5,9 +5,13 @@
   <title>Facial Recognition</title>
   <script src="js/build/tracking-min.js"></script>
   <script src="js/build/data/face-min.js"></script>
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="boots/css/bootstrap.min.css">
   <link rel="stylesheet" href="boots/js/bootstrap.min.js">
+  <script>
+    alert('Essa pagina pode ser adicionada à home screen. Vá ao menu do seu navegador click em Adicionar a home screen!')
+  </script>
 
 </head>
 <body onload="recognition()" id="body">
@@ -36,17 +40,16 @@
             <div class="text-center header-title">PWA - FACE RECOGNITION</div>
         </a>
     </nav>
-</div>
-  
-  
+  </div>
+
   <div class="container section-web d-none d-lg-block d-xl-none d-xl-block">
-      <h1 class="text-center">Facil recognition - using Js</h1>
+      <h1 class="text-center">Facial recognition - using Js</h1>
       <p class="text-justify">The tracking.js library brings different computer vision algorithms and techniques into the browser environment. By using modern HTML5 specifications, we enable you to do real-time color tracking, face detection and much more — all that with a lightweight core (~7 KB) and intuitive interface.</p>
       <p class="text-justify">More informations: <a href="https://trackingjs.com">https://trackingjs.com</a><br>Repositório: <a href="https://github.com/eldersoon/Facial-recognition---using-traking.js-">https://github.com/eldersoon/Facial-recognition---using-traking.js-</a></p>
   </div>
 
   <div class="container section-mob d-none d-md-block d-lg-none d-none d-sm-block d-md-none d-block d-sm-none">
-    <h1 class="text-center">Facil recognition - using Js</h1>
+    <h1 class="text-center">Facial recognition - using Js</h1>
     <p class="text-justify">The tracking.js library brings different computer vision algorithms and techniques into the browser environment. By using modern HTML5 specifications, we enable you to do real-time color tracking, face detection and much more — all that with a lightweight core (~7 KB) and intuitive interface.</p>
     <p class="text-justify">More informations:<br> <a href="https://trackingjs.com">https://trackingjs.com</a><br>
       Repositório: <a href="https://github.com/eldersoon/Facial-recognition---using-traking.js-">https://github.com/eldersoon/Facial-recognition---using-traking.js-</a>
@@ -57,5 +60,7 @@
     <canvas id="canvas" width="320" height="240"></canvas>
 </p>
     <script src="js/facial-recog.js"></script>
+    <script src="js/popper.min.js"></script>
+    
 </body>
 </html>
