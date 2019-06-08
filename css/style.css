@@ -6,7 +6,10 @@ video, canvas {
     filter: FlipH;
     -ms-filter: "FlipH";
 }
-
+.canv-size{
+    position: relative;
+    left: 25%;
+}
 video, canvas {
     margin-left: auto;
     margin-top: auto;
