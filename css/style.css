@@ -1,3 +1,7 @@
+html{
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
 video, canvas {
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -6,9 +10,8 @@ video, canvas {
     filter: FlipH;
     -ms-filter: "FlipH";
 }
-.canv-size{
-    position: relative;
-    left: 25%;
+.canv {
+    padding-right: 350px;
 }
 video, canvas {
     margin-left: auto;
@@ -19,7 +22,9 @@ video, canvas {
     color: white;
     font-size: 13pt;
 }
-
+.header-title{
+    font-size: 40pt;
+}
 .nav-link:hover, a:hover{
     color: rgba(255, 255, 255, 0.808);
 }
@@ -43,6 +48,25 @@ video, canvas {
     border:1px solid;
     color: white;
     font-size: 12pt;
+}
+
+.section-web{
+    font-size:15pt;
+    padding:20px;
+}
+
+.section-mob{
+    font-size: 30pt;
+    padding: 20px;
+}
+
+.section-mob > p > a{
+    font-size: 30pt;
+    text-decoration: none;
+}
+
+.section-mob > h1{
+    font-size:50pt;
 }
 
 .btn-outline-warning:hover{
